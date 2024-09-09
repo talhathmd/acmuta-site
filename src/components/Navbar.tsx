@@ -8,17 +8,14 @@ const Navbar = () => {
       setIsMenuOpen(!isMenuOpen);
    };
 
-   // TODO: Replace "#" with actual links
-   const menuItems = [
-      { name: "about", link: "/about" },
-      { name: "officers", link: "/officers" },
-      { name: "events", link: "#" },
-      { name: "connect", link: "/connect" },
-      {
-         name: "apply",
-         link: "https://mavorgs.campuslabs.com/engage/organization/acm",
-      },
-   ];
+  // TODO: Replace "#" with actual links
+  const menuItems = [
+    { name: "about", link: "/about" },
+    { name: "officers", link: "/officers" },
+    { name: "events", link: "/event" },
+    { name: "connect", link: "/connect" },
+    { name: "apply", link: "#" },
+  ];
 
    return (
       <nav className="backdrop-blur-md bg-white/10 border-gray-200 sticky top-0 z-50">
